@@ -1,0 +1,237 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.header{
+    
+    padding: 20px 0;
+}
+
+.header .menu ul li a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.header .menu ul li:first-child a{
+    color: crimson;
+}
+.header .menu ul li .btn-contact{
+    padding: 8px 20px;
+    background-color: crimson;
+    border-radius: 8mm;
+    transition: 0.2s ease-in-out;
+    margin-left: 15px;
+}
+.header .menu ul li .btn-contact:hover{
+    background-color: rgb(83, 83, 238);
+}
+/* --------------- */
+.nft{
+    position: relative;
+    height: 100vh;
+    background-image: url(../photo/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.nft-menu .left-text{
+    position: absolute;
+    top: 20%;
+}
+.nft-menu .left-text h6{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ff695f;
+    margin-bottom: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nft-menu .left-text h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #2a2a2a;
+    line-height: 72px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 50%;
+}
+.nft-menu .left-text h2 em{
+    color: #03A4ED;
+    font-weight: bold;
+    font-style: normal;
+
+}
+.nft-menu .left-text h2 span{
+    color: #FF695F;
+}
+.nft-menu .left-text p{
+    width: 50%;
+    margin-bottom: 30px;
+    color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nft-menu .left-text .btn1{
+    background-color: #03A4ED;
+    padding: 9px 16px;
+    border-radius: 8mm;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: white;
+    transition: 0.2s ease-in-out;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.nft-menu .left-text .btn1:hover{
+    background-color: #FF695F;
+}
+.nft-menu .left-text .btn2 i{
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    color: white;
+
+
+}
+.nft-menu .left-text .btn2{
+    color: #ff695f;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.provide{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.provide .provide-text h2{
+    width: 35%;
+    margin: auto;
+    margin-bottom: -10px;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #2a2a2a;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    z-index: 2;
+    line-height: 44px;
+    position: relative;
+}
+.provide .provide-text h2 em{
+    color: #03A4ED;
+    font-style: normal;
+}
+.provide .provide-text h2 span{
+    color: #FF695F;
+}
+.provide .provide-text h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ff695f;
+    opacity: 0.15;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.provide .provide-boxes .provide-box{
+    width: 31%;
+    border: 1px solid rgba(128, 128, 128, 0.137);
+    margin: 0 23px 34px 0;
+    padding: 80px 40px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 5%);
+    position: relative;
+    margin-top: 50px;
+    border-bottom: 5px solid #ff695f;
+    cursor: pointer;
+
+}
+.provide .provide-boxes .provide-box img{
+   background-color: #03A4ED;
+    
+}
+.provide .provide-boxes .provide-box h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2a2a2a;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    
+    
+    
+}
+.provide .provide-boxes .provide-box p{
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+    font-family: 'Poppins', sans-serif;
+    width: 95%;
+    margin: auto;    
+}
+/* ---------------------- */
+
+.recent{
+     width: 100%;
+     text-align: center;
+     margin-top: 50px;
+}
+.recent .recent-text h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #2a2a2a;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    width: 40%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
+
+}
+.recent .recent-text h2 em{
+    font-style: normal;
+    color: #03A4ED;
+}
+.recent .recent-text h2 span{
+    color: #ff695f;
+}
+.recent .recent-text p{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ff695f;
+    opacity: 0.15;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    
+}
+.recent .recent-boxes .recent-box img{
+    border-radius: 20px;
+    margin-left: 22px;
+    cursor: pointer;
+
+}

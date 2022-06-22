@@ -1,0 +1,393 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    background-color: rgb(78, 190, 181);
+    padding: 12px;
+}
+.header .nav{
+    justify-content: space-between;
+    align-items: center;
+}
+.header .nav .menu ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.header .nav .menu ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+     display: block;
+    color: white;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+
+}
+.header .nav .menu ul li a i{
+    font-size: 25px;
+}
+.header .nav .menu ul li .home{
+    border-bottom: 2px solid #42d9e4;
+    padding-bottom: 8px;
+    margin-bottom: -2px;
+}
+.creative{
+    background: url(../photo/index8-banner1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+.creative .create-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 20;
+}
+.creative .create-text h1{
+    font-size: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+.creative .create-text h1 span{
+    color: #42D9E4;
+    font-weight: 600;
+}
+.creative .create-text p{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 45px;
+    font-weight: 100;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.creative .create-button{
+    text-align: center;
+    width: 100%;
+
+}
+.creative .create-button a:first-child{
+    text-align: center;
+    padding: 12px 25px;
+    background-color: #42d9e4;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-right: 15px;
+    font-size: 20px;
+
+}
+.creative .create-button a:last-child{
+    text-align: center;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-right: 15px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+}
+.creative .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+
+.explore{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.explore .explore-text h2{
+    color: #515A5F;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.explore .explore-boxes {
+    text-align: center;
+    margin-top: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    cursor: pointer;
+}
+.explore .explore-boxes .explore-box {
+    width: 31.33333%;
+    border: 1px solid rgba(128, 128, 128, 0.137);
+    margin: 0 20px 30px 0;
+    padding: 30px 20px;
+    box-shadow: 0 0 3px 0 rgb(130 121 121 / 60%);
+}
+.explore .explore-boxes .explore-box h4{
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+    margin-top: 15px;
+}
+.explore .explore-boxes .explore-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.34rem;
+    word-spacing: 0.2rem;
+    color: #666;
+    padding: 20px 0;
+    width: 99%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.explore .explore-boxes .explore-box i {
+    font-size: 45px;
+    color: #42D9E4;
+    margin: 20px 0 10px 0;
+}
+
+.max{
+    text-align: center;
+    background: linear-gradient(90deg, #43A6D0,#3DE25D);
+    width: 100%;
+    padding: 7.5rem 0;
+    background-color: #666;
+}
+.max h2{
+    margin-bottom: 3.75rem;
+    color: white;
+    font-size: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.max .max-img img{
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.max .max-word h6{
+    color: white;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.03rem;
+}
+.max .max-word p{
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+
+}
+.max .maxWor p{
+    color: white;
+    width: 55%;
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.34rem;
+    word-spacing: 0.2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.alice{
+    background: linear-gradient(90deg, #eb8416 , #ed2371 );
+    width: 100%;
+    padding: 8rem 0;
+}
+.alice h2{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    font-family: 'Roboto', sans-serif;
+    width: 55%;
+    margin: auto;
+}
+.alice p{
+    color: white;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    line-height: 1.34rem;
+    word-spacing: 0.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.packages{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.packages .packages-text p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.34rem;
+    word-spacing: 0.2rem;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+}
+.packages .packages-text h2{
+    color: #424a4e;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.packages .packages-boxes .package-box1{
+    margin: 0 20px 30px 0;
+    padding: 50px 40px;
+    background-color: #42d9e4;
+    color: white;
+    cursor: pointer;
+    width: 31.3%;
+}
+.packages .packages-boxes .package-box2{
+    margin: 0 25px 35px 0;
+    padding: 50px 40px;
+    background: #9bd230;
+    color: white;
+    cursor: pointer;
+    width: 31.3%;
+    
+}
+.packages .packages-boxes .package-box3{
+    margin: 0 20px 30px 0;
+    padding: 50px 40px;
+    background: #f93d66;
+    color: #fff;
+    cursor: pointer;
+    width: 31.3%;
+
+}
+.packages .packages-boxes .package-box1 .basic{
+    text-align: left;
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+.packages .packages-boxes .package-box2 .basic{
+    text-align: left;
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+.packages .packages-boxes .package-box3 .basic{
+    text-align: left;
+    line-height: 1.1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+.packages .packages-boxes .package-box1 h2{
+    text-align: right;
+    font-size: 3.75rem;
+    font-weight: bold;
+
+    
+}
+.packages .packages-boxes .package-box2 h2{
+    text-align: right;
+    font-size: 3.75rem;
+    font-weight: bold;
+
+    
+}
+.packages .packages-boxes .package-box3 h2{
+    text-align: right;
+    font-size: 3.75rem;
+    font-weight: bold;
+    
+}
+
+.packages .packages-boxes .package-box1 h2 span{
+    font-size: 0.875rem;
+    font-weight: normal;
+
+}
+.packages .packages-boxes .package-box2 h2 span{
+    font-size: 0.875rem;
+    font-weight: normal;
+
+}
+.packages .packages-boxes .package-box3 h2 span{
+    font-size: 0.875rem;
+    font-weight: normal;
+
+}
+.packages .packages-boxes .package-box1 .avaliable{
+    line-height: 1.1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    line-height: 1.34rem;
+    word-spacing: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+.packages .packages-boxes .package-box2 .avaliable{
+    line-height: 1.1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    line-height: 1.34rem;
+    word-spacing: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+.packages .packages-boxes .package-box3 .avaliable{
+    line-height: 1.1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    line-height: 1.34rem;
+    word-spacing: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+.packages .packages-boxes .get{
+    color: white;
+    padding: 10px 25px;
+    border: 2px solid white;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 0.9375rem;
+    font-weight: 300;
+    line-height: 1.34rem;
+    word-spacing: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+}
